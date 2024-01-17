@@ -9,7 +9,7 @@ Compreender esses conceitos não apenas facilita o aprendizado de novas linguage
 1) Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 
 ```js
-diaDaSemana = prompt('Qual é o dia da semana?');
+let diaDaSemana = prompt('Qual é o dia da semana?');
 if (diaDaSemana == 'Sábado') {
     alert('Bom fim de semana!');
 } else if (diaDaSemana == 'Domingo') {
@@ -22,7 +22,7 @@ if (diaDaSemana == 'Sábado') {
 2) Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
 
 ```js
-numero = prompt('Digite um positivo ou negativo');
+let numero = prompt('Digite um positivo ou negativo');
 if (numero > 0) {
     alert('Número positivo!');
 } else {
@@ -33,7 +33,7 @@ if (numero > 0) {
 3) Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!" no console do navegador. Caso contrário, mostre "Tente novamente para ganhar.".
 
 ```js
-pontuacao = 105;
+let pontuacao = 105;
 if (pontuacao > 100) {
     console.log('Parabéns, você venceu!');
 } else {
